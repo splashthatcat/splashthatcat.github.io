@@ -1,9 +1,10 @@
 body {
-	background: #F0F8FF;
+	background: linear-gradient(#F0F8FF, #FFFAF0);
+}
 
 h1 {
 	font-size: 30px;
-	color: #8A2BE2;
+	color: #9400D3;
 	font-family: Times New Roman;
 	font-weight: bold;
 }
@@ -26,5 +27,28 @@ ul {
 
 footer {
 	text-align: center;
+	font-size: 10px;
+	font-weight: lighter;
 }
 
+a:active {
+	background-color: #483D8B;
+}
+
+a:visited{
+	color: #8B008B;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #00CED1;
+  }
+}
+
+.facts {
+	font-weight: bolder;
+}
+
+#greeting {
+	font-weight: lighter;
+}
